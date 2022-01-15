@@ -7,7 +7,7 @@ driver = webdriver.Chrome()
 driver.get("file:///C:/Users/vanng/PycharmProjects/LearnPythonSelenium/n.html")
 
 wait = WebDriverWait(driver, 10)
-
+# note newgit
 original_window = driver.current_window_handle
 
 #assert len(driver.window_handles) == 1
